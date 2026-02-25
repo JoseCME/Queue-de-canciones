@@ -13,7 +13,7 @@ public class Main {
 		Song s1 = new Song("Luna", "Peso Pluma", 5, 2);// cancion normal 5 segundos en cola
 		Song s2 = new Song("Siento que merezco mas", "Latin Mafia", 4, 2);  //cancion normal 9 segundos en cola
 		Song s3 = new Song("Querido amigo", "Paulo Londra", 7, 2); //cancion normal 16 segundos en cola
-		Song s4 = new Song("Sinfonía No. 5 en do menor", "Ludwig van Beethoven,", 4, 1); //cancion alta 20 segundos en cola
+		Song s4 = new Song("Sinfonia No. 5 en do menor", "Ludwig van Beethoven,", 4, 1); //cancion alta 20 segundos en cola
 		Playlist.addSong(s1); //Esta entra primero 
 		// quedaria  como 1.Luna
 		Playlist.addSong(s2);// Esta entra segundo 
