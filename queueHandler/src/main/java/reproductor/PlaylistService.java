@@ -68,6 +68,7 @@ public class PlaylistService {
 		}	
 		logger.info("finalizo...");
 		logger.info("Tiempo total de reproducción: " + totalSecondsPlayed + " segundos");
+		logger.info("Total de canciones: " + totalSongsPlayed);
 	}
 	 
 
