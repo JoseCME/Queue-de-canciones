@@ -36,7 +36,7 @@ public class PlaylistService {
 			}else{
 				current = normalSong.dequeue();;		
 			}
-			logger.info("Estas escuchando: " + current.getTitle() +"  ["+ current.getArtist()+"]"+"("+ current.getDuration() +"s)");
+			logger.info("Estas escuchando: " + current.getTitle() +" ["+ current.getArtist()+"] "+"("+ current.getDuration() +"s)");
 			for (int i = 1; i <= current.getDuration();i++) {
 				int tamanioBarra = 10; 
 	            int progreso = (i * tamanioBarra) / current.getDuration();
